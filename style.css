@@ -1,0 +1,87 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+body ,*{
+    font-family: 'LinaroundW05';
+}
+
+.rounded-l-larg{
+    border-radius: 0 50px 75px 0;
+}
+
+.password-toggle-right {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.password-toggle-left {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.rounded-corners {
+  border-radius: 0.25rem;
+}
+
+
+.bg-responsive {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-main{
+    background: #70AB97;
+}
+
+.box_form:before{
+    position: absolute;
+    content: "";
+    background: url(img/bg-form.png) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+.box_form{
+    border-radius: 75px 0 0 76px;
+    margin: 0 0 0 -70px;
+}
+
+.rememper{
+    direction: rtl;
+}
+
+.btn_lang{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 19px;
+}
+
+[dir="rtl"] .box_form {
+    border-radius: 0 75px 75px 0;
+    margin: 0 -70px 0 0;
+}
+
+@media (max-width: 1024px) {
+    .box_form {
+        border-radius: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    .btn_lang{
+        bottom: 0;
+    }
+}

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'LinaroundW05';
+    src: url('./fonts/LinaroundW05-Regular.woff2') format('woff2'),
+    url('./fonts/LinaroundW05-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LinaroundW05';
+    src: url('./fonts/LinaroundW05-Regular.woff2') format('woff2'),
+    url('./fonts/LinaroundW05-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LinaroundW05';
+    src: url('./fonts/LinaroundW05-Regular.woff2') format('woff2'),
+    url('./fonts/LinaroundW05-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LinaroundW05';
+    src: url('./fonts/LinaroundW05-Bold.woff2') format('woff2'),
+    url('./fonts/LinaroundW05-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Myriad Variable Concept';
+    src: url('./fonts/3a86b8ec8855002aad8b288eaba8915d.eot');
+    src: url('./fonts/3a86b8ec8855002aad8b288eaba8915d.eot?#iefix')
+    format('embedded-opentype'),
+    url('./fonts/3a86b8ec8855002aad8b288eaba8915d.woff') format('woff'),
+    url('./fonts/3a86b8ec8855002aad8b288eaba8915d.woff2') format('woff2'),
+    url('./fonts/3a86b8ec8855002aad8b288eaba8915d.ttf') format('truetype'),
+    url('./fonts/3a86b8ec8855002aad8b288eaba8915d.svg#Myriad Variable Concept')
+    format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
